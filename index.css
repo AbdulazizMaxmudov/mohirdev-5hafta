@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+ul, ol {
+  list-style-type: none; 
+  padding-left: 0; 
+}
+label {
+  display: block;
+}
+input {
+  display: block;
+}
+body {
+  background-color: #fff;
+}
+.header{
+  background-color: #4CAF50;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.navbar , .footer {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav-list {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list__item {
+
+}
+.nav-list__link {
+  color: #fff;
+}
+.box {
+  margin-top: 20px;
+  padding: 10px;
+}
+.box-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.projects-list__item {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.contact-form {
+   width: 100%;
+}
+.form-input {
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   padding: 3px;
+}
+.btn {
+  display: block;
+  margin: 10px auto; 
+  padding: 10px;
+  color: #fff;
+  background: blue;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <header class="header">
+        <h2 class="header-title">
+            Welcome to My Personal WebPage
+        </h2>
+  </header>
+  <nav class="navbar">
+       <ul class="nav-list">
+           <li class="nav-list__item"><a href="#about" class="nav-list__link">About Me</a></li>
+           <li class="nav-list__item"><a href="#project" class="nav-list__link">Projects</a></li>
+           <li class="nav-list__item"><a href="#contact" class="nav-list__link">Contact</a></li>
+       </ul>
+  </nav>
+  <div class="container">
+    <div class="box about" id="about">
+        <h3 class="box-title">About me</h3>
+        <p class="about-subtitle">Hello! I'm a web developer with a passion for creating beautiful and functional websites</p>
+    </div>
+    <div class="box projects" id="project">
+        <h3 class="box-title">Projects</h3>
+        <ul class="porjects-list">
+          <li class="projects-list__item"><span>Project 1:</span> <a href="#">Link to project</a></li>
+          <li class="projects-list__item"><span>Project 2:</span> <a href="#">Link to project</a></li>
+        </ul>
+    </div>
+    <div class="box contact" id="contact">
+       <h3 class="box-title">Contact</h3>
+       <form action="" class="contact-form">
+             <label for="name" class="form-label">Name:</label>
+             <input type="text" class="form-input" id="name">
+             <label for="email" class="form-label">Emal:</label>
+             <input type="email" class="form-input" id="email">
+             <label for="message" class="form-label">Message:</label>
+             <input type="textarea" class="form-input" id="message">
+
+
+             <button class="btn" type="submit">Submit</button>
+       </form>
+    </div>
+    <footer class="footer">
+              <h3 class="footer_title">&copy; 2024 My Persnoal WebPage</h3>
+            
+    </footer>
+  </div>
+</body>
+</html>
